@@ -44,7 +44,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '3%6gx5-jzir(^$-dk&)e*0th6$45g9k7(1@m#e!koyqg!3bwv2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['moha-tribune.herokuapp.com']
 # Application definition
 INSTALLED_APPS = [
     'news',
